@@ -34,7 +34,7 @@ echo $?
 echo "Answer The Following Question:\n"
 
 echo "What is 2+1?"
-read ANSWERx
+read ANSWER
 if [ "$ANSWER" = 3 ] || [ "$ANSWER" = three ]; then
 	echo "You Are CORRECT!"
 else
